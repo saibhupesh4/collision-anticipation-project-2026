@@ -1,0 +1,17 @@
+detector:
+  model: yolov8n.pt
+  imgsz: 640
+  confidence: 0.25
+  classes: [0, 1, 2, 3, 5, 7]
+  device: 0
+  half: false
+tracker:
+  name: bytetrack
+  config: bytetrack.yaml
+sampling:
+  default_fps: 5
+  comparison_fps: [5, 10]
+outputs:
+  format: parquet
+  video_id_namespaced_track_ids: true
+  write_annotated_samples: false

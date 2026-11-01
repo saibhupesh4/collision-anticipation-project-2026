@@ -1,0 +1,69 @@
+﻿# Dataset and generated data
+data/raw/
+data/cache_flat_400/
+data/detections/
+data/tracks/
+data/features/
+data/cache/
+data/splits/
+
+# Experiment outputs and generated models
+stage4_two_architecture_comparison/experiments/runs/
+stage4_two_architecture_comparison/experiments/checkpoints/
+stage4_two_architecture_comparison/experiments/models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+conda-meta/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+credentials.json
+.aws/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Trained models and checkpoints
+stage4_two_architecture_comparison/models/
+*.pt
+*.pth
+*.joblib
+*.onnx
+
+# Generated annotated videos and images
+stage4_two_architecture_comparison/outputs/videos/
+*.mp4
+*.avi
+*.mkv
+
+# Generated caches and arrays
+*.parquet
+*.npy
+*.npz
+
+# Local dataset metadata and manifests
+data/metadata/
+stage4_two_architecture_comparison/data/manifests/
