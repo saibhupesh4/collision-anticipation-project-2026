@@ -1,0 +1,97 @@
+[
+  {
+    "model": "gru",
+    "horizon_sec": 0.5,
+    "training_seconds": 1.7419120999984443,
+    "epochs_run": 17,
+    "validation_threshold": 0.39800092577934265,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.77326272387119,
+      "precision_at_validation_threshold": 0.5952380952380952,
+      "recall_at_validation_threshold": 0.8333333333333334,
+      "f1_at_validation_threshold": 0.6944444444444444,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "parameters": 1697,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103353_architecture1_gru_smoke\\gru_h0_5.pt"
+  },
+  {
+    "model": "gru",
+    "horizon_sec": 1.0,
+    "training_seconds": 0.46564359999320004,
+    "epochs_run": 11,
+    "validation_threshold": 0.4037657082080841,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.7033705348484389,
+      "precision_at_validation_threshold": 0.5777777777777777,
+      "recall_at_validation_threshold": 0.8666666666666667,
+      "f1_at_validation_threshold": 0.6933333333333334,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "parameters": 1697,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103353_architecture1_gru_smoke\\gru_h1_0.pt"
+  },
+  {
+    "model": "gru",
+    "horizon_sec": 1.5,
+    "training_seconds": 0.660082299989881,
+    "epochs_run": 10,
+    "validation_threshold": 0.4030718207359314,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.7323195120780567,
+      "precision_at_validation_threshold": 0.5686274509803921,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.7160493827160493,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "parameters": 1697,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103353_architecture1_gru_smoke\\gru_h1_5.pt"
+  },
+  {
+    "model": "gru",
+    "horizon_sec": 2.0,
+    "training_seconds": 0.416540400008671,
+    "epochs_run": 9,
+    "validation_threshold": 0.35257405042648315,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.7648531561915082,
+      "precision_at_validation_threshold": 0.5471698113207547,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.6987951807228916,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "parameters": 1697,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103353_architecture1_gru_smoke\\gru_h2_0.pt"
+  },
+  {
+    "model": "gru",
+    "horizon_sec": 4.0,
+    "training_seconds": 0.706737599990447,
+    "epochs_run": 12,
+    "validation_threshold": 0.3844177722930908,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6186031401734609,
+      "precision_at_validation_threshold": 0.5681818181818182,
+      "recall_at_validation_threshold": 0.8333333333333334,
+      "f1_at_validation_threshold": 0.6756756756756757,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "parameters": 1697,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103353_architecture1_gru_smoke\\gru_h4_0.pt"
+  }
+]

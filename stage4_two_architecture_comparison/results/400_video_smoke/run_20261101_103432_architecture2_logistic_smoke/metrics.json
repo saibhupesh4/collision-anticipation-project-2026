@@ -1,0 +1,242 @@
+[
+  {
+    "model": "rule_only",
+    "horizon_sec": 0.5,
+    "training_seconds": 0.0,
+    "validation_threshold": 0.5,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6147348530307368,
+      "precision_at_validation_threshold": 0.5263157894736842,
+      "recall_at_validation_threshold": 0.6666666666666666,
+      "f1_at_validation_threshold": 0.5882352941176471,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "comp__rule_risk"
+    ]
+  },
+  {
+    "model": "no_camera_logistic",
+    "horizon_sec": 0.5,
+    "training_seconds": 0.014541800002916716,
+    "validation_threshold": 0.3800401932960884,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6645291711938652,
+      "precision_at_validation_threshold": 0.5319148936170213,
+      "recall_at_validation_threshold": 0.8333333333333334,
+      "f1_at_validation_threshold": 0.6493506493506493,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ],
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_2\\run_20261101_103432_architecture2_logistic_smoke\\no_camera_logistic_h0_5.joblib"
+  },
+  {
+    "model": "rule_only",
+    "horizon_sec": 1.0,
+    "training_seconds": 0.0,
+    "validation_threshold": 0.5,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6085471811790765,
+      "precision_at_validation_threshold": 0.5263157894736842,
+      "recall_at_validation_threshold": 0.6666666666666666,
+      "f1_at_validation_threshold": 0.5882352941176471,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "comp__rule_risk"
+    ]
+  },
+  {
+    "model": "no_camera_logistic",
+    "horizon_sec": 1.0,
+    "training_seconds": 0.0041252999944845214,
+    "validation_threshold": 0.49414467251579847,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5873073719135574,
+      "precision_at_validation_threshold": 0.5714285714285714,
+      "recall_at_validation_threshold": 0.6666666666666666,
+      "f1_at_validation_threshold": 0.6153846153846154,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ],
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_2\\run_20261101_103432_architecture2_logistic_smoke\\no_camera_logistic_h1_0.joblib"
+  },
+  {
+    "model": "rule_only",
+    "horizon_sec": 1.5,
+    "training_seconds": 0.0,
+    "validation_threshold": 0.5,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5865727452285157,
+      "precision_at_validation_threshold": 0.5789473684210527,
+      "recall_at_validation_threshold": 0.7333333333333333,
+      "f1_at_validation_threshold": 0.6470588235294118,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "comp__rule_risk"
+    ]
+  },
+  {
+    "model": "no_camera_logistic",
+    "horizon_sec": 1.5,
+    "training_seconds": 0.004203300006338395,
+    "validation_threshold": 0.45551028562909185,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6749016100644253,
+      "precision_at_validation_threshold": 0.5333333333333333,
+      "recall_at_validation_threshold": 0.8,
+      "f1_at_validation_threshold": 0.64,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ],
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_2\\run_20261101_103432_architecture2_logistic_smoke\\no_camera_logistic_h1_5.joblib"
+  },
+  {
+    "model": "rule_only",
+    "horizon_sec": 2.0,
+    "training_seconds": 0.0,
+    "validation_threshold": 0.5,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5706246844674618,
+      "precision_at_validation_threshold": 0.5263157894736842,
+      "recall_at_validation_threshold": 0.6666666666666666,
+      "f1_at_validation_threshold": 0.5882352941176471,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "comp__rule_risk"
+    ]
+  },
+  {
+    "model": "no_camera_logistic",
+    "horizon_sec": 2.0,
+    "training_seconds": 0.003756800011615269,
+    "validation_threshold": 0.44811743323389125,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6638807791809117,
+      "precision_at_validation_threshold": 0.574468085106383,
+      "recall_at_validation_threshold": 0.9,
+      "f1_at_validation_threshold": 0.7012987012987013,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ],
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_2\\run_20261101_103432_architecture2_logistic_smoke\\no_camera_logistic_h2_0.joblib"
+  },
+  {
+    "model": "rule_only",
+    "horizon_sec": 4.0,
+    "training_seconds": 0.0,
+    "validation_threshold": 0.5,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5148701457647302,
+      "precision_at_validation_threshold": 0.5333333333333333,
+      "recall_at_validation_threshold": 0.26666666666666666,
+      "f1_at_validation_threshold": 0.35555555555555557,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "comp__rule_risk"
+    ]
+  },
+  {
+    "model": "no_camera_logistic",
+    "horizon_sec": 4.0,
+    "training_seconds": 0.005139700006111525,
+    "validation_threshold": 0.4169568561715283,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5308910343678175,
+      "precision_at_validation_threshold": 0.5272727272727272,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.6823529411764706,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "features": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ],
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_2\\run_20261101_103432_architecture2_logistic_smoke\\no_camera_logistic_h4_0.joblib"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "run_id": "run_20261101_103353_architecture1_gru_smoke",
+  "architecture": "Architecture 1 GRU",
+  "dataset_subset": "400-video preprocessing subset",
+  "features": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\experiments\\runs\\run_20261101_102221_architecture1_features",
+  "seed": 42,
+  "device": "cuda",
+  "sequence_shape": [
+    6,
+    17
+  ],
+  "feature_names": [
+    "active_person",
+    "active_bicycle",
+    "active_car",
+    "active_motorcycle",
+    "active_bus",
+    "active_truck",
+    "mean_area_person",
+    "mean_area_car",
+    "speed_mean_person",
+    "speed_mean_car",
+    "acceleration_mean_person",
+    "acceleration_mean_car",
+    "area_growth_mean_car",
+    "height_growth_mean_person",
+    "vehicle_person_min_distance_norm",
+    "vehicle_person_max_closing_norm_per_sec",
+    "vehicle_person_pairs_near_0_2"
+  ],
+  "hidden_size": 16,
+  "maximum_epochs": 40,
+  "batch_size": 16,
+  "early_stopping_patience": 6,
+  "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+}

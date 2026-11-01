@@ -1,0 +1,212 @@
+[
+  {
+    "model": "static_xgboost",
+    "horizon_sec": 0.5,
+    "training_seconds": 0.45711689999734517,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.28084614872932434,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6767888779743627,
+      "precision_at_validation_threshold": 0.5909090909090909,
+      "recall_at_validation_threshold": 0.8666666666666667,
+      "f1_at_validation_threshold": 0.7027027027027027,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\static_xgboost_h0_5.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "trajectory_xgboost",
+    "horizon_sec": 0.5,
+    "training_seconds": 0.03527550000580959,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.3531566560268402,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6954347268503265,
+      "precision_at_validation_threshold": 0.5777777777777777,
+      "recall_at_validation_threshold": 0.8666666666666667,
+      "f1_at_validation_threshold": 0.6933333333333334,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\trajectory_xgboost_h0_5.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "static_xgboost",
+    "horizon_sec": 1.0,
+    "training_seconds": 0.027341499997419305,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.23543787002563477,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.627048402609075,
+      "precision_at_validation_threshold": 0.5555555555555556,
+      "recall_at_validation_threshold": 1.0,
+      "f1_at_validation_threshold": 0.7142857142857143,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\static_xgboost_h1_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "trajectory_xgboost",
+    "horizon_sec": 1.0,
+    "training_seconds": 0.040515400003641844,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.2645444869995117,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6423816178717158,
+      "precision_at_validation_threshold": 0.5686274509803921,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.7160493827160493,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\trajectory_xgboost_h1_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "static_xgboost",
+    "horizon_sec": 1.5,
+    "training_seconds": 0.025163500002236106,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.2863144874572754,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5987108668332807,
+      "precision_at_validation_threshold": 0.5833333333333334,
+      "recall_at_validation_threshold": 0.9333333333333333,
+      "f1_at_validation_threshold": 0.717948717948718,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\static_xgboost_h1_5.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "trajectory_xgboost",
+    "horizon_sec": 1.5,
+    "training_seconds": 0.03400040000269655,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.2584170401096344,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.640949738391995,
+      "precision_at_validation_threshold": 0.5576923076923077,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.7073170731707317,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\trajectory_xgboost_h1_5.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "static_xgboost",
+    "horizon_sec": 2.0,
+    "training_seconds": 0.025988900000811554,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.29893192648887634,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.701139635802094,
+      "precision_at_validation_threshold": 0.5531914893617021,
+      "recall_at_validation_threshold": 0.8666666666666667,
+      "f1_at_validation_threshold": 0.6753246753246753,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\static_xgboost_h2_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "trajectory_xgboost",
+    "horizon_sec": 2.0,
+    "training_seconds": 0.03190009998797905,
+    "train_examples": 280,
+    "validation_examples": 60,
+    "validation_threshold": 0.2191484272480011,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.698653840140196,
+      "precision_at_validation_threshold": 0.5370370370370371,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.6904761904761905,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\trajectory_xgboost_h2_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "static_xgboost",
+    "horizon_sec": 4.0,
+    "training_seconds": 0.024422300004516728,
+    "train_examples": 279,
+    "validation_examples": 60,
+    "validation_threshold": 0.25101226568222046,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.5800493952174783,
+      "precision_at_validation_threshold": 0.5272727272727272,
+      "recall_at_validation_threshold": 0.9666666666666667,
+      "f1_at_validation_threshold": 0.6823529411764706,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\static_xgboost_h4_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  },
+  {
+    "model": "trajectory_xgboost",
+    "horizon_sec": 4.0,
+    "training_seconds": 0.0330134999967413,
+    "train_examples": 279,
+    "validation_examples": 60,
+    "validation_threshold": 0.2875760495662689,
+    "test_metrics": {
+      "examples": 60,
+      "positive_examples": 30,
+      "negative_examples": 30,
+      "average_precision": 0.6793437116096389,
+      "precision_at_validation_threshold": 0.52,
+      "recall_at_validation_threshold": 0.8666666666666667,
+      "f1_at_validation_threshold": 0.65,
+      "scope": "400-video pipeline-validation subset; not a final research estimate"
+    },
+    "boosted_trees": 80,
+    "checkpoint": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\models\\architecture_1\\run_20261101_103237_architecture1_xgboost_smoke\\trajectory_xgboost_h4_0.json",
+    "scope": "400-video pipeline-validation subset; not a final research estimate; not a generalization estimate"
+  }
+]

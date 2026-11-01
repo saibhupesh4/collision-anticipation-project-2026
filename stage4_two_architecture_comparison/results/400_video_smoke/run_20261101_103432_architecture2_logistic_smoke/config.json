@@ -1,0 +1,28 @@
+{
+  "run_id": "run_20261101_103432_architecture2_logistic_smoke",
+  "architecture": "Architecture 2",
+  "features": "C:\\Users\\saibh\\OneDrive\\Desktop\\cv project\\stage4_two_architecture_comparison\\experiments\\runs\\run_20261101_102830_architecture2_features\\features.parquet",
+  "dataset_subset": "400-video preprocessing subset",
+  "seed": 42,
+  "models": {
+    "no_camera_logistic": [
+      "no_camera__rule_risk",
+      "no_camera__person_conflict_max",
+      "no_camera__vehicle_conflict_max",
+      "no_camera__conflicting_tracks",
+      "no_camera__active_tracks",
+      "no_camera__uncertainty_mean",
+      "no_camera__uncertainty_max",
+      "no_camera__track_gap_max_sec",
+      "no_camera__predicted_image_speed_max_norm_per_sec",
+      "no_camera__camera_motion_quality"
+    ]
+  },
+  "logistic_regression": {
+    "C": 0.5,
+    "class_weight": null,
+    "scaler": "StandardScaler fit on training videos only"
+  },
+  "geometry": "image_space_heuristic; metric geometry invalid",
+  "scope": "400-video pipeline-validation subset; not a final research estimate"
+}
